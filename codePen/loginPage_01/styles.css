@@ -73,5 +73,5 @@ body {
 }
 
 .form .login-form{
-    display: visible;
+    display: block;
 }
