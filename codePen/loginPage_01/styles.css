@@ -66,4 +66,6 @@ body {
     display: none;
 }
 
-
+.form .login-form{
+    display: visible;
+}
