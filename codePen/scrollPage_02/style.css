@@ -1,5 +1,9 @@
 body {
     font-family: "Raleway", sans-serif !important;
+    display: block;
+    width: 100%;
+    height:100%;
+    margin:0;
 }
 
 ul {
@@ -16,6 +20,18 @@ h1 {
     font-weight: bold;
 }
 
+p {
+    font-size: 20px;
+    color: #484848;
+}
+
+.section{
+    text-align: center;
+    width: 100%;
+    height: 100vh; /*vh했을 때와 다름*/
+    position: relative; /*한 섹션이 브라우저 가득 화면을 채움*/
+}
+
 nav{
     font-weight:548;
     font-size: 22px;
@@ -23,6 +39,9 @@ nav{
 }
 
 /*header nav 파트*/
+/* #header {
+} */
+
 .nav-brand {
     display:inline-block;
 }
@@ -40,9 +59,19 @@ nav{
 }
 
 /*Home파트 */
+
 .aboutme {
     background-image: url('images/background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+
+.middleName p{
+    Background-color: red;
+}
+
 
 
 
