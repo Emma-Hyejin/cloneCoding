@@ -1,0 +1,48 @@
+body {
+    font-family: "Raleway", sans-serif !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration-line:none;
+    color: #efefef;
+}
+
+h1 {
+    color:  #ff6363;
+    font-weight: bold;
+}
+
+nav{
+    font-weight:548;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+/*header nav 파트*/
+.nav-brand {
+    display:inline-block;
+}
+
+.nav-top {
+    float: right;
+    background-color: yellowgreen; /*확인을 위한 bk색깔 지정*/
+}
+
+#headMenu li{
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+/*Home파트 */
+.aboutme {
+    background-image: url('images/background.png');
+}
+
+
+
