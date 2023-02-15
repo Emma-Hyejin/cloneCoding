@@ -73,5 +73,11 @@ nav{
 }
 
 
+/*임시 : 3번째 page hidden*/
+.slide {
+    display: none;
+}
 
-
+.nav-sidebar {
+    display: none;
+}
